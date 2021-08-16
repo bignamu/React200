@@ -6,7 +6,9 @@ import './App.css';
 // import LifecycleEx from './R006_LifeCycleEx'
 // import LifecycleEx from './R007_LifeCycleEx'
 // import LifecycleEx from './R008_LifeCycleEx'
-import Es6 from './R009_Es6'
+// import Es6 from './R009_Es6'
+// import Variable from './R010_Variable'
+import SpreadOperator from './R011_SpreadOperator'
 
 function App() {
   return (
@@ -16,7 +18,10 @@ function App() {
         {/* <LifecycleEx
           prop_value = 'FromApp.js'/> */}
 
-        <Es6/>
+        {/* <Es6/> */}
+
+        {/* <Variable/> */}
+        <SpreadOperator/>
     </div>
   );
 }
