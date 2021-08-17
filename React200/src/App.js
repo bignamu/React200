@@ -8,7 +8,11 @@ import './App.css';
 // import LifecycleEx from './R008_LifeCycleEx'
 // import Es6 from './R009_Es6'
 // import Variable from './R010_Variable'
-import SpreadOperator from './R011_SpreadOperator'
+// import SpreadOperator from './R011_SpreadOperator'
+// import ClassPrototype from './R012_Class&Prototype'
+// import ArrowFunc from './R013_ArrowFunction'
+// import ForEach from './R014_ForEach'
+import Jquery from './R016_Jquery'
 
 function App() {
   return (
@@ -21,7 +25,12 @@ function App() {
         {/* <Es6/> */}
 
         {/* <Variable/> */}
-        <SpreadOperator/>
+        {/* <SpreadOperator/> */}
+        {/* <ClassPrototype/> */}
+        {/* <ArrowFunc/> */}
+        {/* <ForEach/> */}
+        <Jquery/>
+        
     </div>
   );
 }
