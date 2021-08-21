@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 // import ImportComponent from './R003_ImportConponent'
 // import LifecycleEx from './R004_LifeCycleEx'
@@ -21,8 +20,20 @@ import './App.css';
 // import PropsDefault from './R022_PropsDefault'
 // import PropsNode from './R023_PropsNode'
 // import ReactState from './R024_ReactState'
-import SetState from './R025_SetState'
+// import SetState from './R025_SetState'
+// import ForceUpdate from './R026_ForceUpdate'
+// import ComponentClass from './R027_ComponentClass'
+// import PureComponentClass from './R028_PureComponentClass'
+// import ShallowEqual from './R029_ShallowEqual'
+// import FunctionComponent from './R030_FunctionComponent'
+// import ReactHook from './R031_ReactHook'
+// import Fragments from './R032_Fragments'
+// import ReturnMap from './R033_ReturnMap'
+// import ReactstrapAlerts from './R034_ReactstrapAlerts'
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
+// import ReactstrapBadges from './R035_ReactstrapBadges'
+import ReactstrapBreadcrumps from './R036_ReactstrapBreadcrumps'
 
 function App() {
   return (
@@ -59,7 +70,17 @@ function App() {
           <span>node from App.js</span>
         </PropsNode> */}
         {/* <ReactState reactString={"react"}/> */}
-        <SetState/>
+        {/* <SetState/> */}
+        {/* <ForceUpdate/> */}
+        {/* <PureComponentClass/> */}
+        {/* <ShallowEqual/> */}
+        {/* <FunctionComponent contents='[THIS IS FunctionComponent]'/> */}
+        {/* <ReactHook/> */}
+        {/* <Fragments/> */}
+        {/* <ReturnMap/> */}
+        {/* <ReactstrapAlerts/> */}
+        {/* <ReactstrapBadges/> */}
+        <ReactstrapBreadcrumps/>
     </div>
   );
 }
